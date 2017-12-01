@@ -7,9 +7,13 @@ END {
 
 }
 
-puts "Number of PRINT statements: "
+print "Number of PRINT statements: "
 
 user_input = gets.chomp.to_i
 user_input = Math.log2(user_input).ceil
 
-puts "#{user_input}"
+puts "Output: #{user_input}"
+
+
+
+
