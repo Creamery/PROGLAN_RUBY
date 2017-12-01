@@ -6,4 +6,5 @@ This program in an input integer N and finds the minimum number of pastes requir
 # INSTRUCTIONS
 
 1 Download and install Ruby https://www.ruby-lang.org/en/
+
 2 Run the PROGLAN_RUBY.rb file in the command prompt
