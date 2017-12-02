@@ -11,8 +11,9 @@ END {
 }
 
 
+# Loop while the user doesn't type STOP
 loop do 
-
+	
 	# Ask for user input
 	print tab1+"Input:"+tab1
 	user_input = gets.chomp
@@ -34,11 +35,7 @@ loop do
 			product = 2**exponent
 		end
 
-		actual = Math.log2(input).ceil
-
 		# Print the output
-		
-		puts tab1+"Actual: #{actual}"
 		puts tab1+"Output:"+tab1+"#{exponent} \n\n"
 	end
 end 
