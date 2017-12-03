@@ -1,0 +1,30 @@
+
+ACT main starring () {
+	int user_input;
+	
+	rehearse {
+
+		[Comment]: Ask for user input
+		
+		Write to user_input;
+		Say "Input:  " + user_input;
+		[Comment]: Input 0 is equivalent to STOP
+		if ( user_input != 0 ) {
+		
+			[Comment]: This checks if the input is within range (0 < input < 10001)
+			if ( user_input > 0 && user_input <= 10001 ) {
+				int exponent = 0;
+				int product = 1;
+				
+				when ( product < user_input ) {
+					exponent++;
+					product = 2*product;
+				}
+				Say "Output: " + exponent;
+			}
+		}
+		
+	
+	} when ( user_input != 0 ) ;
+	
+}

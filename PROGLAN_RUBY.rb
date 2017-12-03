@@ -26,8 +26,8 @@ loop do
 	if input > 0 && input <= 10001
 
 		# Initialize values
-		exponent = -1
-		product = 0
+		exponent = 0
+		product = 1
 
 		# Loop while product is less than input
 		while product < input
