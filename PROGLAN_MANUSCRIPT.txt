@@ -22,9 +22,6 @@ ACT main starring () {
 				}
 				Say "Output: " + exponent;
 			}
-		}
-		
-	
+		}	
 	} when ( user_input != 0 ) ;
-	
 }
